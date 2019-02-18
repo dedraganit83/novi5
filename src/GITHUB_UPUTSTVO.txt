@@ -1,0 +1,10 @@
+1.Prvo sena LOKAL STRANI odredi mesto budceg foldera koji ce se kasnije uneti u Visual Code
+Da se folderu iz tacke 1 / LOKAL STRANI / da ime bude isto sa imenom  novog repositorija na GIT HUBU-tj REMOTE strana.
+U git hubu se pravi novi repository sa imenomkao u tacki 1. pri tome  dobija se adresa link...koji ce se koristiti
+U terminalu u VisualCode-u 
+git init /////iniciramo novi repositorija
+git remote add origin + iskopirana adrsa iz tacke 3
+git remote -v /// kontrola
+git add .   /// sve se ubacuje u kontejner 
+git commit -m "opis promene tekstualno" ///
+git push -u origin master
